@@ -1,5 +1,9 @@
 ﻿namespace Core;
 
+/// <summary>
+/// Identity functor type
+/// </summary>
+/// <typeparam name="T"></typeparam>
 public readonly struct Identity<T>
 {
     private readonly T _data;

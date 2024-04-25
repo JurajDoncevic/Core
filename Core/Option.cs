@@ -1,5 +1,9 @@
 ﻿namespace Core;
 
+/// <summary>
+/// Option moand type
+/// </summary>
+/// <typeparam name="T">Type of the underlying value</typeparam>
 public readonly struct Option<T>
 {
     private readonly T _value;
